@@ -1,0 +1,4 @@
+requests
+tabulate
+price_parser
+pandas
