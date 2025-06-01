@@ -15,7 +15,9 @@ def get_structured_consolidated_data(query: str, country: str = None, top_level_
 
 if __name__ == "__main__":
 
+    import json
+
     products = get_structured_consolidated_data("Apple iPhone 15 Pro Max 256GB", country="US", top_level_domain="co.uk")
 
-    for product in products:
-        print(f"{product['price']} | {product['source']} | {product['name'][:80] + '...'}")
+    pretty_json = json.dumps(products, indent=2)
+    print(pretty_json)

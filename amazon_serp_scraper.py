@@ -22,4 +22,8 @@ def get_products_from_amazon(query: str, country: str = None, top_level_domain: 
 
 if __name__ == "__main__":
 
-    print(get_products_from_amazon("Apple iPhone 15 Pro Max 256GB", country="US", top_level_domain="co.uk"))
+    import json
+
+    products = get_products_from_amazon("Apple iPhone 15 Pro Max 256GB", country="US", top_level_domain="co.uk")
+    pretty_json = json.dumps(products, indent=2)
+    print(pretty_json)
