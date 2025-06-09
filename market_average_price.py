@@ -10,10 +10,10 @@ data = list(sanitized_products)
 df = pd.DataFrame(data)
 
 # Check data types and examine the source column
-iphone_mask = df['name'].str.contains('iPhone', case=False, na=False)
+iphone_mask = df['product'].str.contains('iPhone', case=False, na=False)
 
 # Calculate average prices for iPhone models by source
-iphone_df = df[df['name'].str.contains('iPhone', case=False, na=False)]
+iphone_df = df[df['product'].str.contains('iPhone', case=False, na=False)]
 
 # Group by source and calculate average prices
 avg_prices = iphone_df.groupby('source')['price'].agg(['mean', 'count']).round(2)
