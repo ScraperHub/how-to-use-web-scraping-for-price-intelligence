@@ -1,6 +1,6 @@
 # How to Use Web Scraping for Price Intelligence
 
-We invite you to explore our [blog](https://crawlbase.com/blog/how-to-use-web-scraping-for-price-intelligence/) for more details.
+We invite you to explore our [blog](https://crawlbase.com/blog/how-to-use-web-scraping-for-price-intelligence/?utm_source=github&utm_medium=referral&utm_campaign=scraperhub&ref=gh_scraperhub) for more details.
 
 ## Setting Up Your Coding Environment
 
@@ -26,6 +26,9 @@ Before running the examples, make sure to replace every instance of `"<Normal re
 ### Example Scripts
 
 Please refer to the accompanying [blog](https://crawlbase.com/blog/how-to-use-web-scraping-for-price-intelligence/) for detailed instructions and further guidance.
+
+🛡 Disclaimer
+This repository is for educational purposes only. Please make sure you comply with the Terms of Service of any website you scrape. Use this responsibly and only where permitted.
 
 ---
 
